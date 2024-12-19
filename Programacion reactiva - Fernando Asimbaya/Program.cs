@@ -12,6 +12,7 @@ namespace Programacion_reactiva___Fernando_Asimbaya
     {
         static void Main(string[] args)
         {
+
             //Obtener path local de descargas
             string userProfile = Environment.GetEnvironmentVariable("USERPROFILE");
             string downloadsPath = System.IO.Path.Combine(userProfile, "Downloads");
